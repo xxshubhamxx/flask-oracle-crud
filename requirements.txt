@@ -1,0 +1,8 @@
+Flask==2.0.2
+SQLAlchemy==1.4.25
+virtualenv==20.8.1
+virtualenv-clone==0.5.7
+cx-Oracle==8.2.1
+Flask-SQLAlchemy==2.5.1
+Flask-WTF==0.15.1
+DateTime==4.3
