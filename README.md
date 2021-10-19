@@ -16,7 +16,7 @@ After extracting the file, you need to add the path ```path\to\instantclient-bas
 After this, you can start database by manually searching in start button of windows. Once the database starts, you can either choose "Go to Database Homepage" or install Oracle SQL Developer.
 I'd just installing the sql developer as it povides a much better interface than the website and its easy to setup. 
 
-Once, you're done with all that, open db.sql file in the root folder of this application. You can either copy paste the commands in your oracle sql interface to create the emp table that has been used in this application or just uncooment line 112 ``` #   createAndInsert()``` of app.py when running for first time to create and insert values in the database, then stop the application, comment out that line and run again
+Once, you're done with all that, open db.sql file in the root folder of this application. You can either copy paste the commands in your oracle sql interface to create the emp table that has been used in this application or just uncooment line 100 ``` #   createAndInsert()``` of app.py when running for first time to create and insert values in the database, then stop the application, comment out that line and run again
 
 Then just download this repository as a zip file, extract it, open with VSCode, and open terminal at the root directory of this application, and run this command: 
 ```pip install -r requirements.txt```
